@@ -1,0 +1,58 @@
+label {
+  text-align: center;
+  font: normal normal normal 16px/16px Varela Round;
+  letter-spacing: 0px;
+  color: $secondary-color;
+  opacity: 1;
+
+  height: 20px;
+
+  margin-bottom: 11px;
+}
+
+input {
+  width: 227px;
+  height: 36px;
+
+  color: $secondary-color;
+  background: $primary-bg-color 0% 0% no-repeat padding-box;
+  border: 1px solid $secondary-color;
+  border-radius: 2px;
+  opacity: 1;
+  outline: none;
+
+  padding: 8px 11px;
+  margin-bottom: 10px;
+
+  &.result {
+    border: 1px solid $primary-color;
+  }
+}
+
+button {
+  width: 227px;
+  height: 36px;
+
+  color: $primary-bg-color;
+  background: $primary-color 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  outline: none;
+
+  padding: 8.17px 34px 8px 29px;
+
+  text-align: center;
+  font: normal normal normal 16px/18px Varela Round;
+  letter-spacing: 0.16px;
+
+  &:hover{
+    border: 1px solid $primary-color;
+    background-color: $primary-bg-color;
+    color: $primary-color;
+  }
+}
+
+.separator {
+  @apply border-t w-full;
+  border-color: $primary-color;
+}
