@@ -45,10 +45,13 @@ button {
   font: normal normal normal 16px/18px Varela Round;
   letter-spacing: 0.16px;
 
-  &:hover{
+  &:hover {
     border: 1px solid $primary-color;
     background-color: $primary-bg-color;
     color: $primary-color;
+  }
+  &:focus {
+    outline: none;
   }
 }
 

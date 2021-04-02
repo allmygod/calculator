@@ -13,12 +13,12 @@ app.use(cors())
 
 app.post('/sum', function(req, res, next) {
   let {number1, number2} = req.body
-  if (!number1 || number2) {
+  if (!number1 || !number2) {
     return res.sendStatus(400)
   }
 
   res.json({
-    result: number1 + number2
+    result: parseInt(number1) + parseInt(number2)
   })
 })
 
